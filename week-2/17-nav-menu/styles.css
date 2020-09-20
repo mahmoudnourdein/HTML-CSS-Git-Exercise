@@ -1,1 +1,24 @@
 /* Write your media queries and flexbox CSS below */
+@media screen and (min-width: 480px) {
+  .site-headernav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 700px) {
+  header.site-header {
+    diplay: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 992px) {
+  .site-headernav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
