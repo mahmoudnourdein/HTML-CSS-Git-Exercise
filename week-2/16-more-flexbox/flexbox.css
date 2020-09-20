@@ -3,3 +3,46 @@
 }
 
 /* Add your own CSS code below */
+ul.countries.countries--tall.countries--first {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+ul.countries.countries--tall.countries--second {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end;
+}
+ul.countries.countries--tall.countries--third {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+ul.countries.countries--tall.countries--third li.country.country--brazil {
+  align-self: flex-end;
+}
+ul.countries.countries--tall.countries--fourth {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+ul.countries.countries--tall.countries--fourth li.country.country--ethiopia,
+ul.countries.countries--tall.countries--fourth li.country.country--laos {
+  align-self: center;
+}
+ul.countries.countries--tall.countries--fifth {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+ul.countries.countries--tall.countries--fifth li.country.country--laos {
+  order: 1;
+}
+ul.countries.countries--tall.countries--fifth li.country.country--uganda {
+  align-self: center;
+}
