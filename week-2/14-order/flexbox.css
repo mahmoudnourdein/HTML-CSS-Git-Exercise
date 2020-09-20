@@ -3,3 +3,27 @@
 }
 
 /* Add your own CSS code below */
+ul.countries.countries--first li.country.country--brazil {
+  order: 5;
+}
+ul.countries.countries--second li.country.country--brazil {
+  order: 4;
+}
+ul.countries.countries--second li.country.country--uganda {
+  order: 5;
+}
+ul.countries.countries--third li.country.country--brazil {
+  order: 5;
+}
+ul.countries.countries--third li.country.country--croatia {
+  order: 4;
+}
+ul.countries.countries--third li.country.country--ethiopia {
+  order: 3;
+}
+ul.countries.countries--third li.country.country--laos {
+  order: 2;
+}
+ul.countries.countries--third li.country.country--uganda {
+  order: 1;
+}
